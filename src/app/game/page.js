@@ -71,7 +71,7 @@ export default function Game() {
     }, [totalClicks, clickCount, points]);
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 mt-16">
             <h1 className="text-3xl font-bold mb-4">{gameStatus === 'ALL CLEARED' ? 'ALL CLEARED' : "LET'S PLAY"}</h1>
 
             <div className="flex items-center space-x-2 mb-4">
