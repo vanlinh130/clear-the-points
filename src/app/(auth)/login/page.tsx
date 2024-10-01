@@ -16,7 +16,7 @@ export default function Login() {
         // Giả lập kiểm tra thông tin đăng nhập
         if (email === 'user@gmail.com' && password === '123456') {
             // Sử dụng window.location để điều hướng
-            window.location.href = '/dashboard'; // Điều hướng tới Dashboard
+            window.location.href = '/'; // Điều hướng tới Dashboard
         } else {
             setError('Email hoặc mật khẩu không đúng.');
         }
@@ -29,7 +29,7 @@ export default function Login() {
                 <div className="flex flex-col gap-8 w-full max-w-md lg:max-w-lg text-white px-6 sm:px-12">
                     <div className="flex flex-col gap-4 text-center lg:text-left">
                         <h1 className="text-3xl lg:text-4xl font-extralight">
-                            Hello, <span className="gradient-heading font-semibold">Crazy Games</span>
+                            Hello, <span className="gradient-heading font-semibold">HAIBAZO</span>
                         </h1>
                         <p className="text-[14px] lg:text-[16px] mb-4 text-[#6F767E]">
                             Log in to platform to start creating magic.
